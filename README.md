@@ -60,14 +60,3 @@ GET: http://localhost:8080/reservas/clientes/1
 //Devuelve las habitaciones reservadas por el cliente "Ejemplo: id=1"
 GET: http://localhost:8080/reservas/clientes     
 //Devuelve las habitaciones reservadas por el cliente mediante el procedimiento de almacenaje (Da como parametro "ClienteID" mediante el req.body)
-
-
-
-
-
-
-
-Los otras consultas se realizaron en la terminal, por lo cual se ejecuta el siguiente codigo:
-(Hay que descomentar las ultimas lineas de codigo par ver los log)  //Dependiendo cuales se quieran ver ya que dentro de este se encuentra la función: getDisponibilidad y getOcupacionFecha.
-
-node database.js
